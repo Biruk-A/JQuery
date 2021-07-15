@@ -1,0 +1,118 @@
+/* ul{
+    max-width: 80%;
+    list-style: none;
+}
+
+h1{
+    background-color:aqua ;
+    text-align: center;
+    padding: 10px;
+
+
+}
+#firut{
+    text-align: center;
+    background-color: tomato;
+    padding: 8px;
+    font-size: 20px;
+    color: black;
+    max-width: 100%;
+    cursor: pointer;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-size: 18px;
+}
+
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+input{
+    padding: 12px;
+}
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+body{
+    background-color: #fece0c;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+}
+.wrapper h1{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.wrapper .input_filed input[type="text"],
+.wrapper .input_filed input[type="password"]{
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+
+}
+#error{
+    width: 100%;
+    padding: 0px;
+    background-color: pink;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.wrapper .btn{
+    width: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
